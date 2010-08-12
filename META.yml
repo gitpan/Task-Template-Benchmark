@@ -3,6 +3,7 @@ abstract: 'Task to install all template engines benchmarked by Template::Benchma
 author:
   - 'Sam Graham <libtemplate-benchmark-perl@illusori.co.uk>'
 build_requires:
+  Module::Build: 0.36
   Test::More: 0
 configure_requires:
   Module::Build: 0.36
@@ -16,7 +17,7 @@ name: Task-Template-Benchmark
 provides:
   Task::Template::Benchmark:
     file: lib/Task/Template/Benchmark.pm
-    version: 1.00
+    version: 1.00_01
 requires:
   CHI: 0
   Cache::Cache: 0
@@ -50,8 +51,8 @@ requires:
   Text::Template: 0
   Text::Template::Simple: 0
   Text::Tmpl: 0
-  Text::Xslate: 0.1030
-  Text::Xslate::Bridge::TT2: 0
+  Text::Xslate: 0.1053
+  Text::Xslate::Bridge::TT2: 1.0002
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.00
+version: 1.00_01
