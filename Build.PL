@@ -18,6 +18,8 @@ my %modules = (
         #    Mojo::Template, Tenjin.
         'IO::File'                  => 0,
 
+        'HTML::Mason'               => 0,
+        'HTML::Macro'               => 0,
         'HTML::Template'            => 0,
         'HTML::Template::Compiled'  => 0,
         'HTML::Template::Expr'      => 0,
@@ -27,6 +29,8 @@ my %modules = (
         'Mojo::Template'            => 0,
         'NTS::Template'             => 0,
         'Parse::Template'           => 0,
+        #  Need 0.000000004 for sorted hash-looping.
+        'Solution'                  => '0.000000004',
         'Template::Alloy'           => 0,
         #  Lots of extras here...
         'Template::Sandbox'         => 0,
@@ -34,6 +38,7 @@ my %modules = (
         'Cache::Cache'              => 0,
         'Cache::FastMemoryCache'    => 0,
         'Cache::FastMmap'           => 0,
+        'Cache::Ref'                => 0,
         'CHI'                       => 0,
         'Template::Tiny'            => 0,
         'Template'                  => 0,
